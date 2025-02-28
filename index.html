@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jstones Portfolio website</title>
+    <link rel="icon" href="Jstones2.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f50215ab09.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+                
+                
+            </nav>
+            <div class="header-text">
+                <p> <i>Hello there  My Name is</i> <span><b>Johnstones</b></span></p>
+                <h1>
+                    I'M A 
+                    <span>
+                        <span>WEB DELEVOPER</span>
+                        <span>APP DEVELOPER</span>
+                        <span> WEB DESIGNER</span>
+                        <span>FREELANCER</span>
+                        <span>UI/UX DESIGNER</span>
+                        
+                </span> 
+            </h1>
+            </div>
+        </div>
+    </div>
+
+<!----------    about section-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_20231214_153404_240.jpg" class="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtittle">About Me</h1>
+                    <p>
+                        I’m a passionate web developer, designer, freelancer, and online marketer with a knack for creating visually stunning and 
+                        highly functional websites.
+                         With intermediate-level expertise in front-end and back-end development, I craft responsive and user-friendly digital experiences. <br>
+                         As a freelancer, I work with businesses and entrepreneurs to build custom websites that drive engagement and conversions. My online marketing skills complement my development work, ensuring websites are not just well-designed but also optimized for visibility and success.
+
+Whether it’s designing a brand-new site, optimizing an existing one, or crafting a targeted digital marketing strategy, I’m here to bring ideas to life! 🚀
+
+Let me know if you’d like to tweak this further to match your style!
+                    </p>
+                    <br>
+                    <hr>
+
+
+                         <div class="tabtittles">
+                            <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tablinks" onclick="opentab('Experience')">Experience</p>
+                            <p class="tablinks" onclick="opentab('Education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android apps</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2024- Current</span><br>UI/UX Design Training at ICS Institute</li>
+                                <li><span>2023 - 2024</span><br>Games App development</li>
+                                <li><span>2023 - 2024</span><br>Graphic Designer</li>
+                                
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2023</span><br>FreecodeCamp Web Developers</li>
+                                <li><span>2023</span><br>CodeWith Mosh App Developers</li>
+                                <li><span>2024</span><br> <a href="https://www.ics.ac.ke/" target="_blank" id="ics">ICS College</a> School of Technology</li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------Services------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtittle">My Services</h1>
+        <div class="services-lists">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Your website is the digital face of your brand, and we’re here to make it stand out. Our exper
+                    t web design services blend creativity, functionality,
+                     and user experience to create stunning websites that engage and convert.
+                </p> <br>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>
+                    A great design isn’t just about looks—it’s about experience. 
+                    Our UI/UX design services focus on creating visually stunning, intuitive, and user-friendly interfaces that keep your audience engaged.
+                </p> <br>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>
+                    Bring your app idea to life with a sleek, user-friendly, and high-performing 
+                    design. Our app design services focus on creating visually appealing and intuitive interfaces that enhance user experience and engagement. 
+                </p> <br>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------Portfolio----------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        download it from play store.
+                    </p>
+                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        download it from play store.
+                    </p>
+                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        download it from play store.
+                    </p>
+                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------------------CONTACT---------------------------->
+
+<div id="contact">
+    <div class="conteiner">
+        <div class="row">
+            <div class="contact-left">
+                
+                <h1 class="subtittle">Contact Me</h1>
+                <p><i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <a href="mail to:joneskhai26@gmail.com" class="mail">joneskhai26@gmail.com</a>
+                </p>
+                <p><i class="fa fa-phone-square" aria-hidden="true"></i>0721910026</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/johnstone.ekaijohnstone" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://x.com/ekaistone2" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://wa.me/721910026" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href="http://t.me/khaistone2" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                </div>
+                <a href="STONE'S CV.docx.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" reaquired>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"><i></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa fa-heart" aria-hidden="true"></i> &copy; Jstones. All rights Reserved</p>
+    </div>
+</div>
+
+    <script>
+       var tablinks = document.getElementsByClassName("tablinks");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+       }
+
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzxBRT8TNRVmWwRaaMJ-329lsIv3sHobooo0wzhtttdUCe1EOqycC07iYYRBALOj39m/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+   
+</body>
+</html>
